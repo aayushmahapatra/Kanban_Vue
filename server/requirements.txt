@@ -1,0 +1,9 @@
+flask
+celery
+redis
+flask-cors
+flask-mysql
+flask-mail
+flask-caching
+pyjwt
+cryptography
