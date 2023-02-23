@@ -26,13 +26,13 @@ app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = '21f2000846@ds.study.iitm.ac.in'
-app.config['MAIL_PASSWORD'] = 'mokktrrvnsdvajvs'
+app.config['MAIL_PASSWORD'] = ''
 app.config['CACHE_TYPE'] = 'redis'
 app.config['CACHE_KEY_PREFIX'] = 'fcache'
 app.config['CACHE_REDIS_HOST'] = 'localhost'
 app.config['CACHE_REDIS_PORT'] = '6379'
 app.config['CACHE_REDIS_URL'] = 'redis://localhost:6379'
-app.config['SECRET_KEY'] = "004f2af45d3a4e161a7dd2d17fzcx47f"
+app.config['SECRET_KEY'] = ""
 
 # MySQL Integration
 mysql = MySQL()
